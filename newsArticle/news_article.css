@@ -1,0 +1,62 @@
+/* news_article.css */
+
+/* General body styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    /* Radial gradient from center, light yellow to light blue */
+    background: radial-gradient(circle, #fffacd, #e0f2f7);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/* Container for the main content */
+.container {
+    max-width: 960px; /* Max width for readability */
+    margin: 0 auto; /* Center the container */
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px; /* Slightly rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+/* Styling for individual article blocks */
+.article {
+    border: 1px solid #ddd; /* Light grey border */
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px; /* Space between articles */
+    background-color: #fff;
+}
+
+.article h2 {
+    color: #0056b3; /* Darker blue for titles */
+    margin-top: 0;
+}
+
+.article p {
+    line-height: 1.6; /* Improved readability for paragraphs */
+    color: #555; /* Slightly lighter text color */
+}
+
+.article h3 {
+    color: #007bff; /* Bootstrap primary blue for subheadings */
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.article ul {
+    list-style: disc inside; /* Default disc bullet points */
+    padding-left: 0; /* Remove default padding for lists */
+}
+
+.article ul li {
+    margin-bottom: 5px;
+    color: #666;
+}
