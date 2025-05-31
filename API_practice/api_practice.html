@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <title>Weather Report - Desert Vibes</title>
+  <link rel="stylesheet" href="./api_practice.css">
+</head>
+<body>
+   <div class="container"> <h1>Weather Report</h1>
+
+     <form id="weatherForm">
+       <label for="latitude">Enter latitude:</label>
+       <input type="text" id="latitude" name="latitude" placeholder="e.g., 48.8566">
+       <label for="longitude">Enter longitude</label>
+       <input type="text" id="longitude" name="longitude" placeholder="e.g., 2.3522">
+       <button type="submit">Get Weather</button>
+     </form>
+
+     <div id="weatherInfo"></div>
+   </div> <script src="./api_practice.js"></script>
+</body>
+</html>

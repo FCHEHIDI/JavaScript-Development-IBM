@@ -1,0 +1,86 @@
+/* api_practice.css */
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 20px;
+    /* Desert-inspired gradient background: from a light sand to a warm sunset orange */
+    background: linear-gradient(to bottom, #fde8cd, #f0c27b);
+    background-attachment: fixed; /* Ensures the background covers the whole viewport */
+    color: #5c4033; /* Dark brown text for good contrast */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh; /* Make sure it takes full viewport height */
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.85); /* Slightly transparent white/cream for the main content box */
+    padding: 35px;
+    border-radius: 12px; /* Softly rounded corners */
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2); /* Deeper shadow for a raised effect */
+    text-align: center;
+    width: 100%;
+    max-width: 480px; /* Max width for better readability on larger screens */
+    border: 1px solid #d4a761; /* A subtle sandy border */
+}
+
+h1 {
+    font-size: 2.8em;
+    color: #c08b4e; /* A rich, warm brown for the main title */
+    margin-bottom: 30px;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1); /* Subtle text shadow */
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 18px; /* Space between form elements */
+    margin-bottom: 30px;
+}
+
+label {
+    font-size: 1.1em;
+    font-weight: bold;
+    color: #7a5c4e; /* A slightly lighter brown for labels */
+    text-align: left;
+    margin-left: 5px;
+}
+
+input[type="text"] {
+    padding: 14px 18px;
+    border: 2px solid #e0b37d; /* Sandy border for inputs */
+    border-radius: 8px;
+    font-size: 1.1em;
+    background-color: #fffdfa; /* Very light, almost white background for inputs */
+    color: #333;
+    outline: none;
+    box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.08); /* Inner shadow for depth */
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+input[type="text"]:focus {
+    border-color: #d88c4b; /* More vibrant orange on focus */
+    box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.1), 0 0 10px rgba(216, 140, 75, 0.4);
+}
+
+button[type="submit"] {
+    background-color: #d88c4b; /* Warm orange button */
+    color: white;
+    padding: 15px 25px;
+    border: none;
+    border-radius: 25px; /* Pill-shaped button */
+    font-size: 1.2em;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease;
+    box-shadow: 0 5px 12px rgba(0, 0, 0, 0.25); /* Button shadow */
+    letter-spacing: 0.5px;
+    margin-top: 10px; /* Space above button */
+}
+
+button[type="submit"]:hover {
+    background-color: #c0773f; /* Darker orange on hover */
+    transform: translateY(-3px); /* Lift effect */
+    box-shadow: 0
